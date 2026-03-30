@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="x5-orientation" content="portrait">
+<meta name="x5-fullscreen" content="true">
+<meta name="x5-page-mode" content="app">
+<title>军事动态2026-03-30</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{background:#0f172a;color:#e2e8f0;font-family:-apple-system,Microsoft YaHei,sans-serif}
+.w{max-width:1000px;margin:0 auto;padding:16px}
+.hd{text-align:center;padding:24px 0 12px;border-bottom:1px solid #1e293b}
+.tt{font-size:26px;font-weight:700;color:#3b82f6}
+.dt{font-size:14px;color:#94a3b8;margin-top:4px}
+.vw{position:relative;width:100%;padding-bottom:56.25%;background:#000;border-radius:12px;overflow:hidden;margin:12px 0}
+.vw video{position:absolute;top:0;left:0;width:100%;height:100%}
+.play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:80px;height:80px;border-radius:50%;background:rgba(59,130,246,0.9);display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:10}
+.play svg{width:36px;height:36px;fill:#fff}
+.s{background:#1e293b;border-radius:10px;padding:16px;margin-bottom:12px;border-left:4px solid #3b82f6}
+.t{display:inline-block;padding:3px 10px;border-radius:15px;font-size:12px;font-weight:600;background:#dc2626;color:#fff;margin-bottom:8px}
+.h{font-size:18px;font-weight:600;color:#fff;margin-bottom:8px}
+.c{font-size:15px;color:#94a3b8;line-height:1.8}
+.ft{text-align:center;padding:20px 0;color:#475569;font-size:13px;border-top:1px solid #1e293b;margin-top:20px}
+</style>
+</head>
+<body>
+<div class="w">
+<div class="hd"><div class="tt">全球军事动态</div><div class="dt">2026-03-30</div></div>
+<div class="vw">
+<video id="v" playsinline webkit-playsinline x5-video-player-type="h5" preload="metadata" controls>
+<source src="https://cdn.jsdelivr.net/gh/zhengcls/military-news-1774849358/military_news_final.mp4" type="video/mp4">
+</video>
+<div class="play" id="p" onclick="play()">
+<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+</div>
+</div>
+<div class="s"><span class="t">中东局势</span><div class="h">美军地面战“数周速决”方案曝光！欲复刻“42天灭伊”神话，但伊朗从来不是伊拉克！</div><div class="c">美军地面战“数周速决”方案曝光！欲复刻“42天灭伊”神话，但伊朗从来不是伊拉克！<br>美伊对峙持续升级<br>中东局势日趋紧张<br>国际原油价格波动</div></div><div class="s"><span class="t">中东局势</span><div class="h">美军3500名增援到达！以色列袭杀记者！伊朗：击中美军F-16战斗机，强力反击将</div><div class="c">美军3500名增援到达！以色列袭杀记者！伊朗：击中美军F-16战斗机，强力反击将加速以政权崩溃<br>美伊对峙持续升级<br>中东局势日趋紧张<br>国际原油价格波动</div></div><div class="s"><span class="t">中东局势</span><div class="h">胡塞入局致以三面受敌 美被曝筹备地面战 伊朗盯上美以军政人员住所</div><div class="c">胡塞入局致以三面受敌 美被曝筹备地面战 伊朗盯上美以军政人员住所<br>美伊对峙持续升级<br>中东局势日趋紧张<br>国际原油价格波动</div></div><div class="s"><span class="t">军事动态</span><div class="h">现实版“父亲写的散文诗”！重庆单亲爸爸20年写满19个日记本记录女儿成长，4年前</div><div class="c">现实版“父亲写的散文诗”！重庆单亲爸爸20年写满19个日记本记录女儿成长，4年前他患癌去世前向女儿留下遗愿：一定要有自己的孩子<br>相关各方高度关注<br>军事动态持续追踪<br>后续发展有待观察</div></div>
+<div class="ft">全球军事动态日报 | 当日实时搜索</div>
+</div>
+<script>
+var v=document.getElementById('v'),p=document.getElementById('p');
+function play(){v.muted=false;v.play().then(function(){p.style.display='none'}).catch(function(){})}
+v.addEventListener('ended',function(){p.style.display='flex'});
+v.addEventListener('pause',function(){p.style.display='flex'});
+v.addEventListener('playing',function(){p.style.display='none'});
+</script>
+</body>
+</html>
